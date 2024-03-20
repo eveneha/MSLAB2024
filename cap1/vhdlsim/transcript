@@ -12,204 +12,71 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-vcom -reportprogress 300 -work work /home/ms24.41/cap1/vhdlsim/constants.vhd
+vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/fd.vhd
 # QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 11:18:36 on Mar 19,2024
-# vcom -reportprogress 300 -work work /home/ms24.41/cap1/vhdlsim/constants.vhd 
-# -- Loading package STANDARD
-# -- Compiling package CONSTANTS
-# End time: 11:18:36 on Mar 19,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms24.41/cap1/vhdlsim/iv.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 11:18:38 on Mar 19,2024
-# vcom -reportprogress 300 -work work /home/ms24.41/cap1/vhdlsim/iv.vhd 
+# Start time: 12:07:32 on Mar 20,2024
+# vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/fd.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package CONSTANTS
-# -- Compiling entity IV
-# -- Compiling architecture BEHAVIORAL of IV
-# -- Compiling configuration CFG_IV_BEHAVIORAL
-# -- Loading entity IV
-# -- Loading architecture BEHAVIORAL of IV
-# End time: 11:18:38 on Mar 19,2024, Elapsed time: 0:00:00
+# -- Compiling entity FD
+# -- Compiling architecture PIPPO of FD
+# -- Compiling architecture PLUTO of FD
+# -- Loading entity FD
+# -- Compiling configuration CFG_FD_PIPPO
+# -- Loading entity FD
+# -- Loading architecture PIPPO of FD
+# -- Compiling configuration CFG_FD_PLUTO
+# -- Loading entity FD
+# -- Loading architecture PLUTO of FD
+# End time: 12:07:32 on Mar 20,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms24.41/cap1/vhdlsim/mux21.vhd
+vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_fd.vhd
 # QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 11:18:39 on Mar 19,2024
-# vcom -reportprogress 300 -work work /home/ms24.41/cap1/vhdlsim/mux21.vhd 
+# Start time: 12:07:35 on Mar 20,2024
+# vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_fd.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package CONSTANTS
-# -- Compiling entity MUX21
-# -- Compiling architecture BEHAVIORAL_1 of MUX21
-# -- Compiling architecture BEHAVIORAL_2 of MUX21
-# -- Loading entity MUX21
-# -- Compiling architecture BEHAVIORAL_3 of MUX21
-# -- Loading entity MUX21
-# -- Compiling architecture STRUCTURAL of MUX21
-# -- Loading entity MUX21
-# -- Compiling configuration CFG_MUX21_BEHAVIORAL_1
-# -- Loading entity MUX21
-# -- Loading architecture BEHAVIORAL_1 of MUX21
-# -- Compiling configuration CFG_MUX21_BEHAVIORAL_2
-# -- Loading entity MUX21
-# -- Loading architecture BEHAVIORAL_2 of MUX21
-# -- Compiling configuration CFG_MUX21_BEHAVIORAL_3
-# -- Loading entity MUX21
-# -- Loading architecture BEHAVIORAL_3 of MUX21
-# -- Compiling configuration CFG_MUX21_STRUCTURAL
-# -- Loading entity MUX21
-# -- Loading architecture STRUCTURAL of MUX21
-# -- Loading entity IV
-# -- Loading entity ND2
-# -- Loading configuration cfg_iv_behavioral
-# -- Loading configuration cfg_nd2_arch2
-# End time: 11:18:39 on Mar 19,2024, Elapsed time: 0:00:00
+# -- Compiling entity TBFD
+# -- Compiling architecture TEST of TBFD
+# -- Compiling configuration FDTEST
+# -- Loading entity TBFD
+# -- Loading architecture TEST of TBFD
+# -- Loading entity FD
+# -- Loading configuration cfg_fd_pippo
+# -- Loading configuration cfg_fd_pluto
+# End time: 12:07:36 on Mar 20,2024, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms24.41/cap1/vhdlsim/mux21_generic.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 11:18:40 on Mar 19,2024
-# vcom -reportprogress 300 -work work /home/ms24.41/cap1/vhdlsim/mux21_generic.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package CONSTANTS
-# -- Compiling entity MUX21_GENERIC
-# -- Compiling architecture BEHAVIORAL_1 of MUX21_GENERIC
-# -- Compiling architecture BEHAVIORAL_2 of MUX21_GENERIC
-# -- Loading entity MUX21_GENERIC
-# -- Compiling architecture BEHAVIORAL_3 of MUX21_GENERIC
-# -- Loading entity MUX21_GENERIC
-# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
-# -- Loading entity MUX21_GENERIC
-# -- Compiling configuration CFG_MUX21_BEHAVIORAL_1
-# -- Loading entity MUX21_GENERIC
-# -- Loading architecture BEHAVIORAL_1 of MUX21_GENERIC
-# -- Compiling configuration CFG_MUX21_GEN_BEHAVIORAL
-# -- Loading entity MUX21_GENERIC
-# -- Loading architecture BEHAVIORAL_2 of MUX21_GENERIC
-# -- Compiling configuration CFG_MUX21_BEHAVIORAL_3
-# -- Loading entity MUX21_GENERIC
-# -- Loading architecture BEHAVIORAL_3 of MUX21_GENERIC
-# -- Compiling configuration CFG_MUX21_GEN_STRUCTURAL
-# -- Loading entity MUX21_GENERIC
-# -- Loading architecture STRUCTURAL of MUX21_GENERIC
-# -- Loading entity MUX21
-# -- Loading configuration cfg_mux21_structural
-# ** Warning: /home/ms24.41/cap1/vhdlsim/mux21_generic.vhd(93): (vcom-1263) Component configuration "all : mux21" applies to no component instantiation statements.
-# End time: 11:18:41 on Mar 19,2024, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 1
-vcom -reportprogress 300 -work work /home/ms24.41/cap1/vhdlsim/tb_mux21_generic.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 11:18:42 on Mar 19,2024
-# vcom -reportprogress 300 -work work /home/ms24.41/cap1/vhdlsim/tb_mux21_generic.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package CONSTANTS
-# -- Compiling entity TBMUX21_GENERIC
-# -- Compiling architecture TEST of TBMUX21_GENERIC
-# -- Compiling configuration MUX21GENTEST
-# -- Loading entity TBMUX21_GENERIC
-# -- Loading architecture TEST of TBMUX21_GENERIC
-# -- Loading entity MUX21_GENERIC
-# -- Loading configuration cfg_mux21_gen_behavioral
-# -- Loading configuration cfg_mux21_gen_structural
-# End time: 11:18:42 on Mar 19,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.tbmux21_generic -t 100ps
-# vsim work.tbmux21_generic -t 100ps 
-# Start time: 11:19:05 on Mar 19,2024
-# ** Note: (vsim-8009) Loading existing optimized design _opt1
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.constants
-# Loading work.tbmux21_generic(test)#1
-# Loading work.mux21_generic(structural)#1
-# Loading work.mux21_generic(structural)#2
-add wave -position insertpoint  \
-sim:/tbmux21_generic/A1 \
-sim:/tbmux21_generic/B1 \
-sim:/tbmux21_generic/S1 \
-sim:/tbmux21_generic/output1 \
-sim:/tbmux21_generic/output2
-run
-vcom -reportprogress 300 -work work /home/ms24.41/cap1/vhdlsim/mux21_generic.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 11:22:11 on Mar 19,2024
-# vcom -reportprogress 300 -work work /home/ms24.41/cap1/vhdlsim/mux21_generic.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package CONSTANTS
-# -- Compiling entity MUX21_GENERIC
-# -- Compiling architecture BEHAVIORAL_1 of MUX21_GENERIC
-# -- Compiling architecture BEHAVIORAL_2 of MUX21_GENERIC
-# -- Loading entity MUX21_GENERIC
-# -- Compiling architecture BEHAVIORAL_3 of MUX21_GENERIC
-# -- Loading entity MUX21_GENERIC
-# -- Compiling architecture STRUCTURAL of MUX21_GENERIC
-# -- Loading entity MUX21_GENERIC
-# -- Compiling configuration CFG_MUX21_BEHAVIORAL_1
-# -- Loading entity MUX21_GENERIC
-# -- Loading architecture BEHAVIORAL_1 of MUX21_GENERIC
-# -- Compiling configuration CFG_MUX21_GEN_BEHAVIORAL
-# -- Loading entity MUX21_GENERIC
-# -- Loading architecture BEHAVIORAL_2 of MUX21_GENERIC
-# -- Compiling configuration CFG_MUX21_BEHAVIORAL_3
-# -- Loading entity MUX21_GENERIC
-# -- Loading architecture BEHAVIORAL_3 of MUX21_GENERIC
-# -- Compiling configuration CFG_MUX21_GEN_STRUCTURAL
-# -- Loading entity MUX21_GENERIC
-# -- Loading architecture STRUCTURAL of MUX21_GENERIC
-# -- Loading entity MUX21
-# -- Loading configuration cfg_mux21_structural
-# ** Warning: /home/ms24.41/cap1/vhdlsim/mux21_generic.vhd(93): (vcom-1263) Component configuration "all : mux21" applies to no component instantiation statements.
-# End time: 11:22:11 on Mar 19,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 1
-vcom -reportprogress 300 -work work /home/ms24.41/cap1/vhdlsim/tb_mux21_generic.vhd
-# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 11:22:13 on Mar 19,2024
-# vcom -reportprogress 300 -work work /home/ms24.41/cap1/vhdlsim/tb_mux21_generic.vhd 
-# -- Loading package STANDARD
-# -- Loading package TEXTIO
-# -- Loading package std_logic_1164
-# -- Loading package CONSTANTS
-# -- Compiling entity TBMUX21_GENERIC
-# -- Compiling architecture TEST of TBMUX21_GENERIC
-# -- Compiling configuration MUX21GENTEST
-# -- Loading entity TBMUX21_GENERIC
-# -- Loading architecture TEST of TBMUX21_GENERIC
-# -- Loading entity MUX21_GENERIC
-# -- Loading configuration cfg_mux21_gen_behavioral
-# -- Loading configuration cfg_mux21_gen_structural
-# End time: 11:22:13 on Mar 19,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim -t 100ps work.tbmux21_generic
-# End time: 11:22:37 on Mar 19,2024, Elapsed time: 0:03:32
-# Errors: 0, Warnings: 0
-# vsim -t 100ps work.tbmux21_generic 
-# Start time: 11:22:37 on Mar 19,2024
+vsim work.tbfd -t 100fs
+# vsim work.tbfd -t 100fs 
+# Start time: 12:08:04 on Mar 20,2024
 # ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
 # Loading work.constants
-# Loading work.tbmux21_generic(test)#1
-# Loading work.mux21_generic(structural)#1
-# Loading work.mux21_generic(structural)#2
+# Loading work.tbfd(test)#1
+vsim -t 100fs work.tbfd -voptargs=+acc
+# End time: 12:13:14 on Mar 20,2024, Elapsed time: 0:05:10
+# Errors: 0, Warnings: 0
+# vsim -t 100fs work.tbfd -voptargs="+acc" 
+# Start time: 12:13:14 on Mar 20,2024
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading work.constants
+# Loading work.tbfd(test)#1
+# Loading work.fd(pluto)#1
 add wave -position insertpoint  \
-sim:/tbmux21_generic/A1 \
-sim:/tbmux21_generic/B1 \
-sim:/tbmux21_generic/S1 \
-sim:/tbmux21_generic/output1 \
-sim:/tbmux21_generic/output2
+sim:/tbfd/CK \
+sim:/tbfd/RESET \
+sim:/tbfd/D \
+sim:/tbfd/QSYNCH \
+sim:/tbfd/QASYNCH
 run
 # Break key hit
 # Break key hit
-# End time: 19:31:10 on Mar 19,2024, Elapsed time: 8:08:33
-# Errors: 0, Warnings: 0

@@ -16,8 +16,10 @@ architecture BEHAVIORAL_1 of MUX21_GENERIC is
 
 begin
 
+  
+  
   process(A, S, B)
-  begin 
+  begin
     for i in Y'range loop
       Y(i) <= (A(i) and S) or (B(i) and not(S));
     end loop;
@@ -30,7 +32,8 @@ end BEHAVIORAL_1;
 architecture BEHAVIORAL_2 of MUX21_GENERIC is
 
 begin
-	Y <= A when S='1' else B;
+  
+	Y <= A when S='1' else B after DELAY_MUX;
 
 end BEHAVIORAL_2;
 
@@ -38,8 +41,10 @@ end BEHAVIORAL_2;
 architecture BEHAVIORAL_3 of MUX21_GENERIC is
 
 begin
+  
 	pmux: process(A,B,S)
 	begin
+        
 		if S='1' then
 			Y <= A;
 		else
