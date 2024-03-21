@@ -151,3 +151,65 @@ vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/rca_gen
 # ** Note: /home/ms24.41/MSLAB2024/cap1/vhdlsim/rca_generic.vhd(14): VHDL Compiler exiting
 # End time: 10:08:29 on Mar 21,2024, Elapsed time: 0:00:00
 # Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/fa.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:09:38 on Mar 21,2024
+# vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/fa.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FA
+# -- Compiling architecture BEHAVIORAL of FA
+# -- Compiling configuration CFG_FA_BEHAVIORAL
+# -- Loading entity FA
+# -- Loading architecture BEHAVIORAL of FA
+# End time: 10:09:38 on Mar 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/rca_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:09:41 on Mar 21,2024
+# vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/rca_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity RCA_GENERIC
+# -- Compiling architecture STRUCTURAL of RCA_GENERIC
+# -- Compiling architecture BEHAVIORAL of RCA_GENERIC
+# -- Loading entity RCA_GENERIC
+# -- Compiling configuration CFG_RCA_STRUCTURAL
+# -- Loading entity RCA_GENERIC
+# -- Loading architecture STRUCTURAL of RCA_GENERIC
+# -- Loading entity FA
+# -- Loading configuration cfg_fa_behavioral
+# -- Compiling configuration CFG_RCA_BEHAVIORAL
+# -- Loading entity RCA_GENERIC
+# -- Loading architecture BEHAVIORAL of RCA_GENERIC
+# End time: 10:09:41 on Mar 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_rca_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:09:45 on Mar 21,2024
+# vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_rca_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package NUMERIC_STD
+# -- Compiling entity TBRCA_GENERIC
+# -- Compiling architecture TEST of TBRCA_GENERIC
+# ** Error: /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_rca_generic.vhd(20): (vcom-1136) Unknown identifier "NBIT".
+# ** Error: /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_rca_generic.vhd(20): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_rca_generic.vhd(20): Type error in range expression.
+# ** Error: /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_rca_generic.vhd(21): (vcom-1136) Unknown identifier "NBIT".
+# ** Error: /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_rca_generic.vhd(21): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_rca_generic.vhd(21): Type error in range expression.
+# ** Error: /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_rca_generic.vhd(23): (vcom-1136) Unknown identifier "NBIT".
+# ** Error: /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_rca_generic.vhd(23): (vcom-1591) Bad expression in left bound of range expression.
+# ** Error: /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_rca_generic.vhd(23): Type error in range expression.
+# ** Error: /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_rca_generic.vhd(39): (vcom-1023) Positional association (constant "NBIT") found after named association.
+# ** Error (suppressible): /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_rca_generic.vhd(43): (vcom-1141) Identifier "RCA_GENRIC" does not identify a component declaration.
+# ** Error (suppressible): /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_rca_generic.vhd(48): (vcom-1141) Identifier "RCA_GENRIC" does not identify a component declaration.
+# ** Note: /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_rca_generic.vhd(85): VHDL Compiler exiting
+# End time: 10:09:45 on Mar 21,2024, Elapsed time: 0:00:00
+# Errors: 12, Warnings: 0

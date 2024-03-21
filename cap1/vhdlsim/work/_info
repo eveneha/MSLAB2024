@@ -26,7 +26,7 @@ DAx4 work 2 fa 10 behavioral 22 ODc]kF_XR;BkzoME9DeI`0
 Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
 Z4 DEx4 work 2 fa 0 22 ?S0`V6nIhGSY22UzQhjY]1
-!i122 29
+!i122 30
 Z5 w1710873232
 R0
 Z6 8/home/ms24.41/MSLAB2024/cap1/vhdlsim/fa.vhd
@@ -37,9 +37,9 @@ V7<jRl4N@eB8UMfDEK2_5e2
 !s100 ;fLgj2F5I1BR>Vc^?i^<S3
 Z8 OL;C;2020.4;71
 32
-Z9 !s110 1711012105
+Z9 !s110 1711012178
 !i10b 0
-Z10 !s108 1711012105.000000
+Z10 !s108 1711012178.000000
 Z11 !s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/vhdlsim/fa.vhd|
 Z12 !s107 /home/ms24.41/MSLAB2024/cap1/vhdlsim/fa.vhd|
 !i113 0
@@ -294,6 +294,64 @@ R45
 !i113 0
 R23
 R14
+Ccfg_rca_behavioral
+Z46 eRCA_GENERIC
+R1
+DAx4 work 11 rca_generic 10 behavioral 22 Z726mJ>J1>i;ziV19[D^a0
+Z47 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z48 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+R2
+R3
+Z49 DEx4 work 11 rca_generic 0 22 0USo>0W6nL:PjA0FZ?ASe3
+!i122 31
+Z50 w1711012168
+R0
+Z51 8/home/ms24.41/MSLAB2024/cap1/vhdlsim/rca_generic.vhd
+Z52 F/home/ms24.41/MSLAB2024/cap1/vhdlsim/rca_generic.vhd
+l0
+L63 1
+VfnNIo=4`Jn3aC58UzYz?g1
+!s100 :<82R8T6`bYdzK1;JFUK51
+R8
+32
+Z53 !s110 1711012181
+!i10b 0
+Z54 !s108 1711012181.000000
+Z55 !s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/vhdlsim/rca_generic.vhd|
+Z56 !s107 /home/ms24.41/MSLAB2024/cap1/vhdlsim/rca_generic.vhd|
+!i113 0
+R13
+R14
+Ccfg_rca_structural
+R46
+R40
+R4
+DCx4 work 17 cfg_fa_behavioral 0 22 7<jRl4N@eB8UMfDEK2_5e2
+DAx4 work 11 rca_generic 10 structural 22 SMGY`m;M^FZ`bheHP:fCc2
+R47
+R48
+R2
+R3
+R49
+!i122 31
+R50
+R0
+R51
+R52
+l0
+L53 1
+V>;iXCCfWWIhN1Ve>G:Q@E3
+!s100 [a?e@YlZ5i6a<JYIK30Z^0
+R8
+32
+R53
+!i10b 0
+R54
+R55
+R56
+!i113 0
+R13
+R14
 Pconstants
 !i122 28
 R5
@@ -318,7 +376,7 @@ Efa
 R5
 R2
 R3
-!i122 29
+!i122 30
 R0
 R6
 R7
@@ -340,11 +398,11 @@ Abehavioral
 R2
 R3
 R4
-!i122 29
+!i122 30
 l16
-Z46 L14 9
-Z47 VODc]kF_XR;BkzoME9DeI`0
-Z48 !s100 DMi>BZZVj6i=_GX:XX[z53
+L14 9
+VODc]kF_XR;BkzoME9DeI`0
+!s100 DMi>BZZVj6i=_GX:XX[z53
 R8
 32
 R9
@@ -616,10 +674,10 @@ R2
 R3
 DEx4 work 15 tbmux21_generic 0 22 Rd6?4jRFQ<^lmd=zTN=l32
 !i122 23
-Z49 w1711009609
+Z57 w1711009609
 R0
-Z50 8/home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd
-Z51 F/home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd
+Z58 8/home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd
+Z59 F/home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd
 l0
 L46 1
 VXT>e8<<FgIjCz4VP@A>Ah3
@@ -630,7 +688,7 @@ R29
 !i10b 0
 R30
 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd|
-Z52 !s107 /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd|
+Z60 !s107 /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd|
 !i113 0
 R23
 R14
@@ -697,31 +755,97 @@ R45
 !i113 0
 R23
 R14
-Etbmux21_generic
+Erca_generic
+R50
+R47
+R48
+R2
+R3
+!i122 31
+R0
+R51
+R52
+l0
+L5 1
+V0USo>0W6nL:PjA0FZ?ASe3
+!s100 jMzLOdcMlCaR;[[ik63iV1
+R8
+32
+R53
+!i10b 1
+R54
+R55
+R56
+!i113 0
+R13
+R14
+Abehavioral
+R47
+R48
+R2
+R3
 R49
-Z53 DPx4 work 9 constants 0 22 GAObH7c<=?JlDPAibT<H_1
+!i122 31
+l47
+L45 7
+VZ726mJ>J1>i;ziV19[D^a0
+!s100 2hTa^TH:T_RcoVl:3Z8YL1
+R8
+32
+R53
+!i10b 1
+R54
+R55
+R56
+!i113 0
+R13
+R14
+Astructural
+R47
+R48
+R2
+R3
+R49
+!i122 31
+l30
+L16 27
+VSMGY`m;M^FZ`bheHP:fCc2
+!s100 P@6LgWVdOG78LjhW@ikIo1
+R8
+32
+R53
+!i10b 1
+R54
+R55
+R56
+!i113 0
+R13
+R14
+Etbmux21_generic
+R57
+Z61 DPx4 work 9 constants 0 22 GAObH7c<=?JlDPAibT<H_1
 R2
 R3
 !i122 27
 R0
-R50
-R51
+R58
+R59
 l0
 L6 1
 V9[b4B>_c?PnH6_Die?=zf2
 !s100 Cemk`9C=@;kab5Mk6_63`0
 R8
 32
-Z54 !s110 1711011952
+Z62 !s110 1711011952
 !i10b 1
-Z55 !s108 1711011952.000000
-Z56 !s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd|
-R52
+Z63 !s108 1711011952.000000
+Z64 !s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd|
+R60
 !i113 0
 R13
 R14
 Atest
-R53
+R61
 R2
 R3
 DEx4 work 15 tbmux21_generic 0 22 9[b4B>_c?PnH6_Die?=zf2
@@ -732,11 +856,34 @@ VzB8^dfDihMzb9c_OU?:8h1
 !s100 Q>D@;Ph@gz_bB0a2AkZYi1
 R8
 32
-R54
+R62
 !i10b 1
-R55
-R56
-R52
+R63
+R64
+R60
+!i113 0
+R13
+R14
+Etbrca_generic
+w1711012135
+DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+R2
+R3
+!i122 32
+R0
+8/home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_rca_generic.vhd
+F/home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_rca_generic.vhd
+l0
+L5 1
+V9CJha`l6jBoj20hjTP[_k2
+!s100 3hgfjfc[D?GPHbL50V`LL0
+R8
+32
+!s110 1711012185
+!i10b 1
+!s108 1711012185.000000
+!s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_rca_generic.vhd|
+!s107 /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_rca_generic.vhd|
 !i113 0
 R13
 R14

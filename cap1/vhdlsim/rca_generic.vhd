@@ -5,7 +5,7 @@ use ieee.std_logic_unsigned.all;
 entity RCA_GENERIC is 
 	generic (DRCAS : 	Time := 0 ns;
 	         DRCAC : 	Time := 0 ns;
-                 NBIT : integer := numBit );
+                 NBIT : integer := 16 );
 	Port (	A:	In	std_logic_vector(NBIT-1 downto 0);
 		B:	In	std_logic_vector(NBIT-1 downto 0);
 		Ci:	In	std_logic;
