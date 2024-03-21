@@ -12,71 +12,142 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/fd.vhd
+vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/constants.vhd
 # QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 12:07:32 on Mar 20,2024
-# vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/fd.vhd 
+# Start time: 10:05:17 on Mar 21,2024
+# vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/constants.vhd 
+# -- Loading package STANDARD
+# -- Compiling package CONSTANTS
+# End time: 10:05:17 on Mar 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/rca_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:05:21 on Mar 21,2024
+# vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/rca_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity RCA_GENERIC
+# ** Error: /home/ms24.41/MSLAB2024/cap1/vhdlsim/rca_generic.vhd(8): (vcom-1136) Unknown identifier "numBit".
+# ** Note: /home/ms24.41/MSLAB2024/cap1/vhdlsim/rca_generic.vhd(14): VHDL Compiler exiting
+# End time: 10:05:21 on Mar 21,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/constants.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:05:28 on Mar 21,2024
+# vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/constants.vhd 
+# -- Loading package STANDARD
+# -- Compiling package CONSTANTS
+# End time: 10:05:28 on Mar 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/fa.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:05:31 on Mar 21,2024
+# vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/fa.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Compiling entity FA
+# -- Compiling architecture BEHAVIORAL of FA
+# -- Compiling configuration CFG_FA_BEHAVIORAL
+# -- Loading entity FA
+# -- Loading architecture BEHAVIORAL of FA
+# End time: 10:05:31 on Mar 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/rca_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:05:33 on Mar 21,2024
+# vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/rca_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity RCA_GENERIC
+# ** Error: /home/ms24.41/MSLAB2024/cap1/vhdlsim/rca_generic.vhd(8): (vcom-1136) Unknown identifier "numBit".
+# ** Note: /home/ms24.41/MSLAB2024/cap1/vhdlsim/rca_generic.vhd(14): VHDL Compiler exiting
+# End time: 10:05:33 on Mar 21,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:05:52 on Mar 21,2024
+# vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
 # -- Loading package CONSTANTS
-# -- Compiling entity FD
-# -- Compiling architecture PIPPO of FD
-# -- Compiling architecture PLUTO of FD
-# -- Loading entity FD
-# -- Compiling configuration CFG_FD_PIPPO
-# -- Loading entity FD
-# -- Loading architecture PIPPO of FD
-# -- Compiling configuration CFG_FD_PLUTO
-# -- Loading entity FD
-# -- Loading architecture PLUTO of FD
-# End time: 12:07:32 on Mar 20,2024, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_fd.vhd
+# -- Compiling entity TBMUX21_GENERIC
+# -- Compiling architecture TEST of TBMUX21_GENERIC
+# -- Compiling configuration MUX21GENTEST
+# -- Loading entity TBMUX21_GENERIC
+# -- Loading architecture TEST of TBMUX21_GENERIC
+# ** Error (suppressible): (vcom-12) Recompile work.mux21_generic(behavioral_2) after work.mux21_generic is recompiled.
+# ** Error: (vcom-13) Recompile work.mux21_generic(behavioral_2) because work.constants has changed.
+# ** Error (suppressible): (vcom-12) Recompile work.cfg_mux21_gen_behavioral after work.mux21_generic, work.mux21_generic(behavioral_2) are recompiled.
+# ** Error: (vcom-13) Recompile work.cfg_mux21_gen_behavioral because work.constants has changed.
+# ** Error (suppressible): /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd(49): (vcom-1195) Cannot find expanded name "work.CFG_MUX21_GEN_BEHAVIORAL".
+# ** Error: /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd(49): (vcom-1106) Name (expanded name) is not a configuration name.
+# ** Error: /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd(49): Unknown expanded name.
+# ** Error (suppressible): (vcom-12) Recompile work.mux21_generic(structural) after work.mux21_generic is recompiled.
+# ** Error: (vcom-13) Recompile work.mux21_generic(structural) because work.constants has changed.
+# ** Error: (vcom-13) Recompile work.mux21 because work.constants has changed.
+# ** Error (suppressible): (vcom-12) Recompile work.mux21(structural) after work.mux21 is recompiled.
+# ** Error: (vcom-13) Recompile work.mux21(structural) because work.constants has changed.
+# ** Error: (vcom-13) Recompile work.iv because work.constants has changed.
+# ** Error (suppressible): (vcom-12) Recompile work.iv(behavioral) after work.iv is recompiled.
+# ** Error: (vcom-13) Recompile work.iv(behavioral) because work.constants has changed.
+# ** Error (suppressible): (vcom-12) Recompile work.cfg_iv_behavioral after work.iv, work.iv(behavioral) are recompiled.
+# ** Error: (vcom-13) Recompile work.cfg_iv_behavioral because work.constants has changed.
+# ** Error: (vcom-13) Recompile work.nd2 because work.constants has changed.
+# ** Error (suppressible): (vcom-12) Recompile work.nd2(arch2) after work.nd2 is recompiled.
+# ** Error: (vcom-13) Recompile work.nd2(arch2) because work.constants has changed.
+# ** Error (suppressible): (vcom-12) Recompile work.cfg_nd2_arch2 after work.nd2, work.nd2(arch2) are recompiled.
+# ** Error: (vcom-13) Recompile work.cfg_nd2_arch2 because work.constants has changed.
+# ** Error (suppressible): (vcom-12) Recompile work.cfg_mux21_structural after work.mux21, work.mux21(structural), work.cfg_iv_behavioral, work.cfg_nd2_arch2, work.iv, work.nd2 are recompiled.
+# ** Error: (vcom-13) Recompile work.cfg_mux21_structural because work.constants has changed.
+# ** Error (suppressible): (vcom-12) Recompile work.cfg_mux21_gen_structural after work.mux21_generic, work.mux21_generic(structural), work.cfg_mux21_structural, work.mux21 are recompiled.
+# ** Error: (vcom-13) Recompile work.cfg_mux21_gen_structural because work.constants has changed.
+# ** Error (suppressible): /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd(53): (vcom-1195) Cannot find expanded name "work.CFG_MUX21_GEN_STRUCTURAL".
+# ** Error: /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd(53): (vcom-1106) Name (expanded name) is not a configuration name.
+# ** Error: /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd(53): Unknown expanded name.
+# ** Note: /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd(57): VHDL Compiler exiting
+# End time: 10:05:52 on Mar 21,2024, Elapsed time: 0:00:00
+# Errors: 29, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/constants.vhd
 # QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 12:07:35 on Mar 20,2024
-# vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_fd.vhd 
+# Start time: 10:08:21 on Mar 21,2024
+# vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/constants.vhd 
+# -- Loading package STANDARD
+# -- Compiling package CONSTANTS
+# End time: 10:08:21 on Mar 21,2024, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/fa.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:08:25 on Mar 21,2024
+# vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/fa.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
 # -- Loading package std_logic_1164
-# -- Loading package CONSTANTS
-# -- Compiling entity TBFD
-# -- Compiling architecture TEST of TBFD
-# -- Compiling configuration FDTEST
-# -- Loading entity TBFD
-# -- Loading architecture TEST of TBFD
-# -- Loading entity FD
-# -- Loading configuration cfg_fd_pippo
-# -- Loading configuration cfg_fd_pluto
-# End time: 12:07:36 on Mar 20,2024, Elapsed time: 0:00:01
+# -- Compiling entity FA
+# -- Compiling architecture BEHAVIORAL of FA
+# -- Compiling configuration CFG_FA_BEHAVIORAL
+# -- Loading entity FA
+# -- Loading architecture BEHAVIORAL of FA
+# End time: 10:08:25 on Mar 21,2024, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vsim work.tbfd -t 100fs
-# vsim work.tbfd -t 100fs 
-# Start time: 12:08:04 on Mar 20,2024
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.constants
-# Loading work.tbfd(test)#1
-vsim -t 100fs work.tbfd -voptargs=+acc
-# End time: 12:13:14 on Mar 20,2024, Elapsed time: 0:05:10
-# Errors: 0, Warnings: 0
-# vsim -t 100fs work.tbfd -voptargs="+acc" 
-# Start time: 12:13:14 on Mar 20,2024
-# ** Note: (vsim-3812) Design is being optimized...
-# Loading std.standard
-# Loading std.textio(body)
-# Loading ieee.std_logic_1164(body)
-# Loading work.constants
-# Loading work.tbfd(test)#1
-# Loading work.fd(pluto)#1
-add wave -position insertpoint  \
-sim:/tbfd/CK \
-sim:/tbfd/RESET \
-sim:/tbfd/D \
-sim:/tbfd/QSYNCH \
-sim:/tbfd/QASYNCH
-run
-# Break key hit
-# Break key hit
+vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/rca_generic.vhd
+# QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 10:08:29 on Mar 21,2024
+# vcom -reportprogress 300 -work work /home/ms24.41/MSLAB2024/cap1/vhdlsim/rca_generic.vhd 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package std_logic_arith
+# -- Loading package STD_LOGIC_UNSIGNED
+# -- Compiling entity RCA_GENERIC
+# ** Error: /home/ms24.41/MSLAB2024/cap1/vhdlsim/rca_generic.vhd(8): (vcom-1136) Unknown identifier "numBit".
+# ** Note: /home/ms24.41/MSLAB2024/cap1/vhdlsim/rca_generic.vhd(14): VHDL Compiler exiting
+# End time: 10:08:29 on Mar 21,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0

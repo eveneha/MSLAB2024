@@ -1,0 +1,111 @@
+/home/ms24.41/MSLAB2024/cap1/vhdlsim/mux21_generic.vhd {2 {vcom -work work -2002 -explicit -vopt -stats=none /home/ms24.41/MSLAB2024/cap1/vhdlsim/mux21_generic.vhd
+QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package CONSTANTS
+-- Compiling entity MUX21_GENERIC
+-- Compiling architecture BEHAVIORAL_1 of MUX21_GENERIC
+-- Compiling architecture BEHAVIORAL_2 of MUX21_GENERIC
+-- Loading entity MUX21_GENERIC
+-- Compiling architecture BEHAVIORAL_3 of MUX21_GENERIC
+-- Loading entity MUX21_GENERIC
+-- Compiling architecture STRUCTURAL of MUX21_GENERIC
+-- Loading entity MUX21_GENERIC
+-- Compiling configuration CFG_MUX21_BEHAVIORAL_1
+-- Loading entity MUX21_GENERIC
+-- Loading architecture BEHAVIORAL_1 of MUX21_GENERIC
+-- Compiling configuration CFG_MUX21_GEN_BEHAVIORAL
+-- Loading entity MUX21_GENERIC
+-- Loading architecture BEHAVIORAL_2 of MUX21_GENERIC
+-- Compiling configuration CFG_MUX21_BEHAVIORAL_3
+-- Loading entity MUX21_GENERIC
+-- Loading architecture BEHAVIORAL_3 of MUX21_GENERIC
+-- Compiling configuration CFG_MUX21_GEN_STRUCTURAL
+-- Loading entity MUX21_GENERIC
+-- Loading architecture STRUCTURAL of MUX21_GENERIC
+-- Loading entity MUX21
+-- Loading configuration cfg_mux21_structural
+** Warning: /home/ms24.41/MSLAB2024/cap1/vhdlsim/mux21_generic.vhd(98): (vcom-1263) Component configuration "all : mux21" applies to no component instantiation statements.
+
+} {} {}} /home/ms24.41/MSLAB2024/cap1/vhdlsim/mux21.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/ms24.41/MSLAB2024/cap1/vhdlsim/mux21.vhd
+QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package CONSTANTS
+-- Compiling entity MUX21
+-- Compiling architecture BEHAVIORAL_1 of MUX21
+-- Compiling architecture BEHAVIORAL of MUX21
+-- Loading entity MUX21
+-- Compiling architecture BEHAVIORAL_3 of MUX21
+-- Loading entity MUX21
+-- Compiling architecture STRUCTURAL of MUX21
+-- Loading entity MUX21
+-- Compiling configuration CFG_MUX21_BEHAVIORAL_1
+-- Loading entity MUX21
+-- Loading architecture BEHAVIORAL_1 of MUX21
+-- Compiling configuration CFG_MUX21_BEHAVIORAL
+-- Loading entity MUX21
+-- Loading architecture BEHAVIORAL of MUX21
+-- Compiling configuration CFG_MUX21_BEHAVIORAL_3
+-- Loading entity MUX21
+-- Loading architecture BEHAVIORAL_3 of MUX21
+-- Compiling configuration CFG_MUX21_STRUCTURAL
+-- Loading entity MUX21
+-- Loading architecture STRUCTURAL of MUX21
+-- Loading entity IV
+-- Loading entity ND2
+-- Loading configuration cfg_iv_behavioral
+-- Loading configuration cfg_nd2_arch2
+
+} {} {}} /home/ms24.41/MSLAB2024/cap1/vhdlsim/constants.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/ms24.41/MSLAB2024/cap1/vhdlsim/constants.vhd
+QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Compiling package CONSTANTS
+
+} {} {}} /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd
+QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package CONSTANTS
+-- Compiling entity TBMUX21_GENERIC
+-- Compiling architecture TEST of TBMUX21_GENERIC
+-- Compiling configuration MUX21GENTEST
+-- Loading entity TBMUX21_GENERIC
+-- Loading architecture TEST of TBMUX21_GENERIC
+-- Loading entity MUX21_GENERIC
+-- Loading configuration cfg_mux21_gen_behavioral
+-- Loading configuration cfg_mux21_gen_structural
+
+} {} {}} /home/ms24.41/MSLAB2024/cap1/vhdlsim/iv.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/ms24.41/MSLAB2024/cap1/vhdlsim/iv.vhd
+QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package CONSTANTS
+-- Compiling entity IV
+-- Compiling architecture BEHAVIORAL of IV
+-- Compiling configuration CFG_IV_BEHAVIORAL
+-- Loading entity IV
+-- Loading architecture BEHAVIORAL of IV
+
+} {} {}} /home/ms24.41/MSLAB2024/cap1/vhdlsim/nd2.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none /home/ms24.41/MSLAB2024/cap1/vhdlsim/nd2.vhd
+QuestaSim-64 vcom 2020.4 Compiler 2020.10 Oct 13 2020
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package CONSTANTS
+-- Compiling entity ND2
+-- Compiling architecture ARCH1 of ND2
+-- Compiling architecture ARCH2 of ND2
+-- Loading entity ND2
+-- Compiling configuration CFG_ND2_ARCH1
+-- Loading entity ND2
+-- Loading architecture ARCH1 of ND2
+-- Compiling configuration CFG_ND2_ARCH2
+-- Loading entity ND2
+-- Loading architecture ARCH2 of ND2
+
+} {} {}}

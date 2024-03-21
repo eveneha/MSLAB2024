@@ -8,906 +8,735 @@ z2
 !i10e 25
 !i10f 100
 cModel Technology
-Z0 d/home/ms24.41/cap1/vhdlsim
+Z0 d/home/ms24.41/MSLAB2024/cap1/vhdlsim
 T_opt
-!s110 1710932885
-VAW]<^>Tm<UjZ1Ljhb?9G:3
-Z1 04 4 4 work tbfd test 1
-=1-fa8e031b1c84-65fac394-e65c3-2a7e
-Z2 o-quiet -auto_acc_if_foreign -work work
-Z3 tCvgOpt 0
+!s110 1711011833
+V@D?oFi_cKn8hd>6;eBDNW2
+04 12 0 work mux21gentest 1
+=1-fa8e031b1c84-65fbf7f9-37117-1aef
+o-quiet -auto_acc_if_foreign -work work
+tCvgOpt 0
 n@_opt
-Z4 OL;O;2020.4;71
+OL;O;2020.4;71
 R0
-T_opt1
-!s110 1710930645
-VQKZU]oh]VJ7=S@Pej=<=D2
-R1
-=1-fa8e031b1c84-65fabad5-7138d-75b1
-R2
-R3
-n@_opt1
-R4
+Ccfg_fa_behavioral
+eFA
+Z1 aBEHAVIORAL
+DAx4 work 2 fa 10 behavioral 22 ODc]kF_XR;BkzoME9DeI`0
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z4 DEx4 work 2 fa 0 22 ?S0`V6nIhGSY22UzQhjY]1
+!i122 29
+Z5 w1710873232
 R0
-T_opt2
-!s110 1710933194
-VhfL]aRPOSIib:imem1B7l0
-R1
-=1-fa8e031b1c84-65fac4ca-75d1a-43c1
-o-quiet -auto_acc_if_foreign -work work +acc
-R3
-n@_opt2
-R4
-Ccfg_fd_pippo
-eFD
-aPIPPO
-DAx4 work 2 fd 5 pippo 22 5jl3i>I9<?b7f4^`T;UBJ0
-Z5 DPx4 work 9 constants 0 22 GAObH7c<=?JlDPAibT<H_1
-Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
-Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
-Z8 DEx4 work 2 fd 0 22 :LjV?o@4Vlk3B3=6J]FTA2
-!i122 124
-Z9 w1710929525
-Z10 d/home/ms24.41/MSLAB2024/cap1/vhdlsim
-Z11 8/home/ms24.41/MSLAB2024/cap1/vhdlsim/fd.vhd
-Z12 F/home/ms24.41/MSLAB2024/cap1/vhdlsim/fd.vhd
+Z6 8/home/ms24.41/MSLAB2024/cap1/vhdlsim/fa.vhd
+Z7 F/home/ms24.41/MSLAB2024/cap1/vhdlsim/fa.vhd
 l0
-L47 1
-VRiL67o0BNeXc=57@0YCAU2
-!s100 d<_@6_oBQi^:e>jhaED5X2
-Z13 OL;C;2020.4;71
+L24 1
+V7<jRl4N@eB8UMfDEK2_5e2
+!s100 ;fLgj2F5I1BR>Vc^?i^<S3
+Z8 OL;C;2020.4;71
 32
-Z14 !s110 1710932852
+Z9 !s110 1711012105
 !i10b 0
-Z15 !s108 1710932852.000000
-Z16 !s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/vhdlsim/fd.vhd|
-Z17 !s107 /home/ms24.41/MSLAB2024/cap1/vhdlsim/fd.vhd|
+Z10 !s108 1711012105.000000
+Z11 !s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/vhdlsim/fa.vhd|
+Z12 !s107 /home/ms24.41/MSLAB2024/cap1/vhdlsim/fa.vhd|
 !i113 0
-Z18 o-work work
-Z19 tExplicit 1 NoCoverage 1 CvgOpt 0
-Ccfg_fd_pluto
-eFD
-aPLUTO
-DAx4 work 2 fd 5 pluto 22 _0RTQA_A11IjNjnB:kj;h2
-R5
-R6
-R7
-R8
-!i122 124
-R9
-R10
-R11
-R12
-l0
-L53 1
-V:<bHU23RZUf@JjloZX6:10
-!s100 8J4AJZ:<;`F<Tn3JPUZgX1
-R13
-32
-R14
-!i10b 0
-R15
-R16
-R17
-!i113 0
-R18
-R19
+Z13 o-work work
+Z14 tExplicit 1 NoCoverage 1 CvgOpt 0
 Ccfg_iv_behavioral
 eIV
-aBEHAVIORAL
-DAx4 work 2 iv 10 behavioral 22 nkhbIX87LnMEBMbliTYgK0
+R1
+DAx4 work 2 iv 10 behavioral 22 G]GmS_QBQW9ZcmQGjY[WK1
+Z15 DPx4 work 9 constants 0 22 ClkGZK>RIGXYj3b6K2OoK3
+R2
+R3
+Z16 DEx4 work 2 iv 0 22 713KN569WY`PNGD<;?gea3
+!i122 19
 R5
-R6
-R7
-Z20 DEx4 work 2 iv 0 22 a9^MzSN>T3?9k]eAJBVXT1
-!i122 85
-Z21 w1710873232
-R10
-Z22 8/home/ms24.41/MSLAB2024/cap1/vhdlsim/iv.vhd
-Z23 F/home/ms24.41/MSLAB2024/cap1/vhdlsim/iv.vhd
+R0
+Z17 8/home/ms24.41/MSLAB2024/cap1/vhdlsim/iv.vhd
+Z18 F/home/ms24.41/MSLAB2024/cap1/vhdlsim/iv.vhd
 l0
 L19 1
-V1_[DD4oAMV<ENm]3>E2^h1
+Vmzf]L9aL<3:G2QB_l<^]d1
 !s100 J^D:lcUfc_6VD4AD?iJiU2
-R13
+R8
 32
-Z24 !s110 1710925810
+Z19 !s110 1711011803
 !i10b 0
-Z25 !s108 1710925810.000000
-Z26 !s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/vhdlsim/iv.vhd|
-Z27 !s107 /home/ms24.41/MSLAB2024/cap1/vhdlsim/iv.vhd|
+Z20 !s108 1711011803.000000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/ms24.41/MSLAB2024/cap1/vhdlsim/iv.vhd|
+Z22 !s107 /home/ms24.41/MSLAB2024/cap1/vhdlsim/iv.vhd|
 !i113 0
-R18
-R19
-Ccfg_mux21_behavioral_1
-Z28 eMUX21_GENERIC
-aBEHAVIORAL_1
-DAx4 work 13 mux21_generic 12 behavioral_1 22 Zf?a4YbkXGK`=;WJ1E=J`2
-R5
-R6
-R7
-Z29 DEx4 work 13 mux21_generic 0 22 Jb1a=`jUdNn9CJS<Bb:FJ0
-!i122 95
-Z30 w1710926617
-R10
-Z31 8/home/ms24.41/MSLAB2024/cap1/vhdlsim/mux21_generic.vhd
-Z32 F/home/ms24.41/MSLAB2024/cap1/vhdlsim/mux21_generic.vhd
-l0
-L81 1
-VmCC<06le82jVYz?9`ZH=P3
-!s100 >k4@Icaj9cci>5<IVmj0;1
-R13
-32
-Z33 !s110 1710926620
-!i10b 0
-Z34 !s108 1710926620.000000
-Z35 !s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/vhdlsim/mux21_generic.vhd|
-Z36 !s107 /home/ms24.41/MSLAB2024/cap1/vhdlsim/mux21_generic.vhd|
-!i113 0
-R18
-R19
-Ccfg_mux21_behavioral_2
-Z37 eMUX21
-Z38 aBEHAVIORAL_2
-DAx4 work 5 mux21 12 behavioral_2 22 =FG;oc[R=1Z1BP^dCOdzQ0
-R5
-R6
-R7
-Z39 DEx4 work 5 mux21 0 22 V@llE31UnJekWYDI`LEnC3
-!i122 86
-R21
-R10
-Z40 8/home/ms24.41/MSLAB2024/cap1/vhdlsim/mux21.vhd
-Z41 F/home/ms24.41/MSLAB2024/cap1/vhdlsim/mux21.vhd
+Z23 o-work work -2002 -explicit
+R14
+Ccfg_mux21_behavioral
+Z24 eMUX21
+R1
+DAx4 work 5 mux21 10 behavioral 22 aD1nY7C7:49K2WNmI^=VY3
+R15
+R2
+R3
+Z25 DEx4 work 5 mux21 0 22 k5O__De^QB<?Fgn4baSNG3
+!i122 21
+Z26 w1711011052
+R0
+Z27 8/home/ms24.41/MSLAB2024/cap1/vhdlsim/mux21.vhd
+Z28 F/home/ms24.41/MSLAB2024/cap1/vhdlsim/mux21.vhd
 l0
 L88 1
-VZO8fgHmcj]^Xf^echNIcg0
-!s100 YbFM7Ko]Mh=[0;4zYlm1[3
-R13
+Vii2aNH2o_alfc98e_@URz2
+!s100 @KMW;K7ZT:>ljB:<DzmG50
+R8
 32
-Z42 !s110 1710925811
+Z29 !s110 1711011804
 !i10b 0
-Z43 !s108 1710925811.000000
-Z44 !s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/vhdlsim/mux21.vhd|
-Z45 !s107 /home/ms24.41/MSLAB2024/cap1/vhdlsim/mux21.vhd|
+Z30 !s108 1711011804.000000
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/ms24.41/MSLAB2024/cap1/vhdlsim/mux21.vhd|
+Z32 !s107 /home/ms24.41/MSLAB2024/cap1/vhdlsim/mux21.vhd|
 !i113 0
-R18
-R19
-Ccfg_mux21_behavioral_3
-R28
-aBEHAVIORAL_3
-DAx4 work 13 mux21_generic 12 behavioral_3 22 Ik]l`Yj4@0o0:JPM]imlB0
-R5
-R6
-R7
-R29
-!i122 95
-R30
-R10
-R31
-R32
+R23
+R14
+Ccfg_mux21_behavioral_1
+Z33 eMUX21_GENERIC
+aBEHAVIORAL_1
+DAx4 work 13 mux21_generic 12 behavioral_1 22 jNHIRZl:;HHHV86@FRL]32
+R15
+R2
+R3
+Z34 DEx4 work 13 mux21_generic 0 22 ojz7akXdR;HVT2P_j4>U30
+!i122 22
+Z35 w1711011799
+R0
+Z36 8/home/ms24.41/MSLAB2024/cap1/vhdlsim/mux21_generic.vhd
+Z37 F/home/ms24.41/MSLAB2024/cap1/vhdlsim/mux21_generic.vhd
 l0
-Z46 L91 1
-VJUSeI0cnA49CRh2NGAKR`0
-!s100 <eAXicY:Z57EeiJmzX@9>2
-R13
+L81 1
+VJ`@XHYbZeCbk<lSlUSmk<0
+!s100 >k4@Icaj9cci>5<IVmj0;1
+R8
 32
-R33
-!i10b 0
-R34
-R35
-R36
-!i113 0
-R18
-R19
-Ccfg_mux21_gen_behavioral
-R28
-R38
-DAx4 work 13 mux21_generic 12 behavioral_2 22 BKI<`4?g7C^DhVjEX[QaR1
-R5
-R6
-R7
 R29
-!i122 95
+!i10b 0
 R30
-R10
-R31
-R32
+Z38 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/ms24.41/MSLAB2024/cap1/vhdlsim/mux21_generic.vhd|
+Z39 !s107 /home/ms24.41/MSLAB2024/cap1/vhdlsim/mux21_generic.vhd|
+!i113 0
+R23
+R14
+Ccfg_mux21_behavioral_3
+R33
+aBEHAVIORAL_3
+DAx4 work 13 mux21_generic 12 behavioral_3 22 zQNYZThHb9;T:UWfdFLI50
+R15
+R2
+R3
+R34
+!i122 22
+R35
+R0
+R36
+R37
+l0
+L91 1
+VXO1=9hnE`mB8TicIJJ0e=0
+!s100 <eAXicY:Z57EeiJmzX@9>2
+R8
+32
+R29
+!i10b 0
+R30
+R38
+R39
+!i113 0
+R23
+R14
+Ccfg_mux21_gen_behavioral
+R33
+aBEHAVIORAL_2
+DAx4 work 13 mux21_generic 12 behavioral_2 22 NJoG1:IGaCU:GLEdc5UC?2
+R15
+R2
+R3
+R34
+!i122 22
+R35
+R0
+R36
+R37
 l0
 L86 1
-V_`BkD<8j@]ZbJ^[_J0<_21
+V5ggUW@TcSi1gWdjhlTNSb1
 !s100 8WD`20OUaJTEdTj10]Y[:3
-R13
+R8
 32
-R33
-!i10b 0
-R34
-R35
-R36
-!i113 0
-R18
-R19
-Ccfg_mux21_gen_structural
-R28
-Z47 aSTRUCTURAL
-R39
-Z48 DCx4 work 20 cfg_mux21_structural 0 22 NO8e;4?F042X^nG9HlO993
-DAx4 work 13 mux21_generic 10 structural 22 m9AVcOk0gbZdW79KYKH=01
-R5
-R6
-R7
 R29
-!i122 95
+!i10b 0
 R30
-R10
-R31
-R32
+R38
+R39
+!i113 0
+R23
+R14
+Ccfg_mux21_gen_structural
+R33
+Z40 aSTRUCTURAL
+R25
+DCx4 work 20 cfg_mux21_structural 0 22 U]G6hbOfH49VzRl;UaUcb1
+DAx4 work 13 mux21_generic 10 structural 22 `LCo6mfz0fTdOcO6_gHEW1
+R15
+R2
+R3
+R34
+!i122 22
+R35
+R0
+R36
+R37
 l0
 L96 1
-VOLMZYm4eI54>kh6oH5Q7j0
-!s100 THzl_9=VlFS2UzT@c@0YD0
-R13
+VG``XeS;UFZ^;44n_`05ZC0
+!s100 NZEf]kKi?<W?<FM`DcH0i3
+R8
 32
-R33
+R29
 !i10b 0
-R34
-R35
-R36
-!i113 0
-R18
-R19
-Ccfg_mux21_structural
-R37
-R47
-Z49 DEx4 work 3 nd2 0 22 CSc3g2QaXg6;gD7gITXM>3
-R20
-DCx4 work 13 cfg_nd2_arch2 0 22 ;2^jcP`YCohH6m<;:H6252
-DCx4 work 17 cfg_iv_behavioral 0 22 1_[DD4oAMV<ENm]3>E2^h1
-DAx4 work 5 mux21 10 structural 22 1LB1d]]hfYPS4T25K6mY51
-R5
-R6
-R7
+R30
+R38
 R39
-!i122 86
-R21
-R10
+!i113 0
+R23
+R14
+Ccfg_mux21_structural
+R24
 R40
-R41
+Z41 DEx4 work 3 nd2 0 22 STV0ec?cgVX=a<YI7=2WF1
+R16
+DCx4 work 13 cfg_nd2_arch2 0 22 WYc4l=McXli3BL:;CURTn0
+DCx4 work 17 cfg_iv_behavioral 0 22 mzf]L9aL<3:G2QB_l<^]d1
+DAx4 work 5 mux21 10 structural 22 k0R]FGcj6ZFIAkZU<jDAC2
+R15
+R2
+R3
+R25
+!i122 21
+R26
+R0
+R27
+R28
 l0
 L98 1
-VNO8e;4?F042X^nG9HlO993
+VU]G6hbOfH49VzRl;UaUcb1
 !s100 Ka:iYN0MgV9mVY2=5T_gj0
-R13
+R8
 32
-R42
+R29
 !i10b 0
-R43
-R44
-R45
+R30
+R31
+R32
 !i113 0
-R18
-R19
-Ccfg_mux21_structural1
-R28
-R47
-R39
-R48
-DAx4 work 13 mux21_generic 10 structural 22 7H8m:m]PnJMV`KCU1d1790
-DPx4 work 9 constants 0 22 L>I5>HZWfcPdb`eZ_[`^N3
-R6
-R7
-DEx4 work 13 mux21_generic 0 22 Za9j?IH6F?kmCgQzZniZJ2
-!i122 44
-w1710840665
-R0
-8/home/ms24.41/cap1/vhdlsim/mux21_generic.vhd
-F/home/ms24.41/cap1/vhdlsim/mux21_generic.vhd
-l0
-R46
-VF4lm5XO<<:dEnEf913ZYQ0
-!s100 Ij_UL28?m__Z^kn:]o<bn1
-R13
-32
-!s110 1710840668
-!i10b 0
-!s108 1710840667.000000
-!s90 -reportprogress|300|-work|work|/home/ms24.41/cap1/vhdlsim/mux21_generic.vhd|
-!s107 /home/ms24.41/cap1/vhdlsim/mux21_generic.vhd|
-!i113 0
-R18
-R19
+R23
+R14
 Ccfg_nd2_arch1
 eND2
 aARCH1
-DAx4 work 3 nd2 5 arch1 22 86Q1d6fNFlSnO<P1S<:_61
+DAx4 work 3 nd2 5 arch1 22 =hcbLWT2K3HQ>A<loAk3e3
+R15
+R2
+R3
+R41
+!i122 20
 R5
-R6
-R7
-R49
-!i122 87
-R21
-R10
-Z50 8/home/ms24.41/MSLAB2024/cap1/vhdlsim/nd2.vhd
-Z51 F/home/ms24.41/MSLAB2024/cap1/vhdlsim/nd2.vhd
+R0
+Z42 8/home/ms24.41/MSLAB2024/cap1/vhdlsim/nd2.vhd
+Z43 F/home/ms24.41/MSLAB2024/cap1/vhdlsim/nd2.vhd
 l0
 L37 1
-VReno?0YcUWzT]gn<S>BPm3
+Vb4C:X]l@Zdf8LC4NblLTh0
 !s100 E@8<=L1e;1WRQ?F]TON?43
-R13
+R8
 32
-Z52 !s110 1710925813
+R29
 !i10b 0
-Z53 !s108 1710925813.000000
-Z54 !s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/vhdlsim/nd2.vhd|
-Z55 !s107 /home/ms24.41/MSLAB2024/cap1/vhdlsim/nd2.vhd|
+R20
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/ms24.41/MSLAB2024/cap1/vhdlsim/nd2.vhd|
+Z45 !s107 /home/ms24.41/MSLAB2024/cap1/vhdlsim/nd2.vhd|
 !i113 0
-R18
-R19
+R23
+R14
 Ccfg_nd2_arch2
 eND2
 aARCH2
-DAx4 work 3 nd2 5 arch2 22 >V4fT0BQS>Nhm7]f[dI921
+DAx4 work 3 nd2 5 arch2 22 8zW?ZG4LbkG2z6doHY7`^1
+R15
+R2
+R3
+R41
+!i122 20
 R5
-R6
-R7
-R49
-!i122 87
-R21
-R10
-R50
-R51
+R0
+R42
+R43
 l0
 L42 1
-V;2^jcP`YCohH6m<;:H6252
+VWYc4l=McXli3BL:;CURTn0
 !s100 dQYng`K0YXdSKRjaAazG[0
-R13
+R8
 32
-R52
+R29
 !i10b 0
-R53
-R54
-R55
+R20
+R44
+R45
 !i113 0
-R18
-R19
+R23
+R14
 Pconstants
-!i122 117
-R21
-R10
+!i122 28
+R5
+R0
 8/home/ms24.41/MSLAB2024/cap1/vhdlsim/constants.vhd
 F/home/ms24.41/MSLAB2024/cap1/vhdlsim/constants.vhd
 l0
 L1 1
 VGAObH7c<=?JlDPAibT<H_1
 !s100 =B@YGWUje^>D^@P2TV6h?2
-R13
+R8
 32
-!s110 1710931178
+!s110 1711012101
 !i10b 1
-!s108 1710931178.000000
+!s108 1711012101.000000
 !s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/vhdlsim/constants.vhd|
 !s107 /home/ms24.41/MSLAB2024/cap1/vhdlsim/constants.vhd|
 !i113 0
-R18
-R19
-Efd
-R9
+R13
+R14
+Efa
 R5
+R2
+R3
+!i122 29
+R0
 R6
 R7
-!i122 124
+l0
+L4 1
+V?S0`V6nIhGSY22UzQhjY]1
+!s100 R@78Q9B;RU?BKW[d:f7WA2
+R8
+32
+R9
+!i10b 1
 R10
 R11
 R12
-l0
-L5 1
-V:LjV?o@4Vlk3B3=6J]FTA2
-!s100 4<]JCk?`JX]mMXdRU<EIk1
+!i113 0
 R13
-32
 R14
-!i10b 1
-R15
-R16
-R17
-!i113 0
-R18
-R19
-Apluto
-R5
-R6
-R7
-R8
-!i122 124
-l33
-L31 14
-V_0RTQA_A11IjNjnB:kj;h2
-!s100 2WHN^;SPNS_]EL[F9@kf^0
-R13
-32
-R14
-!i10b 1
-R15
-R16
-R17
-!i113 0
-R18
-R19
-Apippo
-R5
-R6
-R7
-R8
-!i122 124
-l16
-L14 16
-V5jl3i>I9<?b7f4^`T;UBJ0
-!s100 KFd91^`>U5]nbPS]cRfHb0
-R13
-32
-R14
-!i10b 1
-R15
-R16
-R17
-!i113 0
-R18
-R19
-Cfdtest
-eTBFD
-Z56 aTEST
-R8
-DCx4 work 12 cfg_fd_pluto 0 22 :<bHU23RZUf@JjloZX6:10
-DCx4 work 12 cfg_fd_pippo 0 22 RiL67o0BNeXc=57@0YCAU2
-DAx4 work 4 tbfd 4 test 22 Ijc3?YZ?Fj?kP1gaO^;Zo1
-R5
-R6
-R7
-Z57 DEx4 work 4 tbfd 0 22 NGIoazOHklXkFY?1dI^AL2
-!i122 125
-Z58 w1710932799
-R10
-Z59 8/home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_fd.vhd
-Z60 F/home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_fd.vhd
-l0
-L48 1
-VAeWN=eo3eJ>282JfE@3h60
-!s100 R^Xl5>bfl_h9FR@Y=lio?3
-R13
-32
-Z61 !s110 1710932856
-!i10b 0
-Z62 !s108 1710932855.000000
-Z63 !s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_fd.vhd|
-Z64 !s107 /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_fd.vhd|
-!i113 0
-R18
-R19
-Eiv
-R21
-R5
-R6
-R7
-!i122 85
-R10
-R22
-R23
-l0
-L5 1
-Va9^MzSN>T3?9k]eAJBVXT1
-!s100 :4ZhGh>WK`=ahW`RW=?IW2
-R13
-32
-R24
-!i10b 1
-R25
-R26
-R27
-!i113 0
-R18
-R19
 Abehavioral
+R2
+R3
+R4
+!i122 29
+l16
+Z46 L14 9
+Z47 VODc]kF_XR;BkzoME9DeI`0
+Z48 !s100 DMi>BZZVj6i=_GX:XX[z53
+R8
+32
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Eiv
 R5
-R6
-R7
+R15
+R2
+R3
+!i122 19
+R0
+R17
+R18
+l0
+L5 1
+V713KN569WY`PNGD<;?gea3
+!s100 :4ZhGh>WK`=ahW`RW=?IW2
+R8
+32
+R19
+!i10b 1
 R20
-!i122 85
+R21
+R22
+!i113 0
+R23
+R14
+Abehavioral
+R15
+R2
+R3
+R16
+!i122 19
 l13
 L11 7
-VnkhbIX87LnMEBMbliTYgK0
+VG]GmS_QBQW9ZcmQGjY[WK1
 !s100 ZO7X<i_:10Coc1RH[ZOf;0
-R13
+R8
 32
-R24
-!i10b 1
-R25
-R26
-R27
-!i113 0
-R18
 R19
-Emux21
+!i10b 1
+R20
 R21
-R5
-R6
-R7
-!i122 86
-R10
-R40
-R41
+R22
+!i113 0
+R23
+R14
+Emux21
+R26
+R15
+R2
+R3
+!i122 21
+R0
+R27
+R28
 l0
 L5 1
-VV@llE31UnJekWYDI`LEnC3
+Vk5O__De^QB<?Fgn4baSNG3
 !s100 8[7C]XjR_lILJSXIUl9e11
-R13
+R8
 32
-R42
+R29
 !i10b 1
-R43
-R44
-R45
-!i113 0
-R18
-R19
-Astructural
-R5
-R6
-R7
-R39
-!i122 86
-l65
-L46 35
-V1LB1d]]hfYPS4T25K6mY51
-!s100 2W<io5nl3hB;lNj_i8I9e0
-R13
-32
-R42
-!i10b 1
-R43
-R44
-R45
-!i113 0
-R18
-R19
-Abehavioral_3
-R5
-R6
-R7
-R39
-!i122 86
-l31
-L29 14
-V;Q>M1EZJ2J_>UQ[PcjFeQ1
-!s100 H`fomV559ELnDKzgmX`0:1
-R13
-32
-R42
-!i10b 1
-R43
-R44
-R45
-!i113 0
-R18
-R19
-Abehavioral_2
-R5
-R6
-R7
-R39
-!i122 86
-l23
-L21 6
-V=FG;oc[R=1Z1BP^dCOdzQ0
-!s100 >12;bKH`aAKmECeOFBXJ]1
-R13
-32
-R42
-!i10b 1
-R43
-R44
-R45
-!i113 0
-R18
-R19
-Abehavioral_1
-R5
-R6
-R7
-R39
-!i122 86
-l15
-L13 6
-VY_dVAUomjaVgH@J9ILjKT1
-!s100 ghVEL:7]j]:CiG[ai`UZn3
-R13
-32
-R42
-!i10b 1
-R43
-R44
-R45
-!i113 0
-R18
-R19
-Emux21_generic
 R30
-R5
-R6
-R7
-!i122 95
-R10
 R31
 R32
+!i113 0
+R23
+R14
+Astructural
+R15
+R2
+R3
+R25
+!i122 21
+l65
+L46 35
+Vk0R]FGcj6ZFIAkZU<jDAC2
+!s100 2W<io5nl3hB;lNj_i8I9e0
+R8
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R23
+R14
+Abehavioral_3
+R15
+R2
+R3
+R25
+!i122 21
+l31
+L29 14
+V6^JTY8eEBb1EN5P3e;2a>1
+!s100 H`fomV559ELnDKzgmX`0:1
+R8
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R23
+R14
+Abehavioral
+R15
+R2
+R3
+R25
+!i122 21
+l23
+L21 6
+VaD1nY7C7:49K2WNmI^=VY3
+!s100 KGaT3J:K8ESLPHfg8JA970
+R8
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R23
+R14
+Abehavioral_1
+R15
+R2
+R3
+R25
+!i122 21
+l15
+L13 6
+VOR:`^@LQ2Ufn<Mf8Q8ZLb1
+!s100 ghVEL:7]j]:CiG[ai`UZn3
+R8
+32
+R29
+!i10b 1
+R30
+R31
+R32
+!i113 0
+R23
+R14
+Emux21_generic
+R35
+R15
+R2
+R3
+!i122 22
+R0
+R36
+R37
 l0
 L5 1
-VJb1a=`jUdNn9CJS<Bb:FJ0
+Vojz7akXdR;HVT2P_j4>U30
 !s100 1m=F_^fHUW@zePCCXz=612
-R13
+R8
 32
-R33
-!i10b 1
-R34
-R35
-R36
-!i113 0
-R18
-R19
-Astructural
-R5
-R6
-R7
 R29
-!i122 95
+!i10b 1
+R30
+R38
+R39
+!i113 0
+R23
+R14
+Astructural
+R15
+R2
+R3
+R34
+!i122 22
 l70
 L60 19
-Vm9AVcOk0gbZdW79KYKH=01
-!s100 OTR3jVj6QR^l=Sof=d89:0
-R13
+V`LCo6mfz0fTdOcO6_gHEW1
+!s100 Mn?1mNQIi<3W@R5KK?Oe?2
+R8
 32
-R33
-!i10b 1
-R34
-R35
-R36
-!i113 0
-R18
-R19
-Abehavioral_3
-R5
-R6
-R7
 R29
-!i122 95
+!i10b 1
+R30
+R38
+R39
+!i113 0
+R23
+R14
+Abehavioral_3
+R15
+R2
+R3
+R34
+!i122 22
 l43
 L41 16
-VIk]l`Yj4@0o0:JPM]imlB0
+VzQNYZThHb9;T:UWfdFLI50
 !s100 bIH`D89Qi;JWP_?J;32Sm0
-R13
+R8
 32
-R33
-!i10b 1
-R34
-R35
-R36
-!i113 0
-R18
-R19
-Abehavioral_2
-R5
-R6
-R7
 R29
-!i122 95
+!i10b 1
+R30
+R38
+R39
+!i113 0
+R23
+R14
+Abehavioral_2
+R15
+R2
+R3
+R34
+!i122 22
 l34
 L32 7
-VBKI<`4?g7C^DhVjEX[QaR1
+VNJoG1:IGaCU:GLEdc5UC?2
 !s100 O4[3aI7oElgHaPDU9cW2W0
-R13
+R8
 32
-R33
-!i10b 1
-R34
-R35
-R36
-!i113 0
-R18
-R19
-Abehavioral_1
-R5
-R6
-R7
 R29
-!i122 95
+!i10b 1
+R30
+R38
+R39
+!i113 0
+R23
+R14
+Abehavioral_1
+R15
+R2
+R3
+R34
+!i122 22
 l17
 L15 15
-VZf?a4YbkXGK`=;WJ1E=J`2
+VjNHIRZl:;HHHV86@FRL]32
 !s100 UR99m@Z@o5bRQRnnKb4ll0
-R13
+R8
 32
-R33
+R29
 !i10b 1
-R34
-R35
-R36
+R30
+R38
+R39
 !i113 0
-R18
-R19
+R23
+R14
 Cmux21gentest
 eTBMUX21_GENERIC
-R56
-R29
-DCx4 work 24 cfg_mux21_gen_structural 0 22 OLMZYm4eI54>kh6oH5Q7j0
-DCx4 work 24 cfg_mux21_gen_behavioral 0 22 _`BkD<8j@]ZbJ^[_J0<_21
-DAx4 work 15 tbmux21_generic 4 test 22 ZE1@IV_U?]SO_aY1a9D2J1
-R5
-R6
-R7
-Z65 DEx4 work 15 tbmux21_generic 0 22 9[b4B>_c?PnH6_Die?=zf2
-!i122 96
-R21
-R10
-Z66 8/home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd
-Z67 F/home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd
+aTEST
+R34
+DCx4 work 24 cfg_mux21_gen_structural 0 22 G``XeS;UFZ^;44n_`05ZC0
+DCx4 work 24 cfg_mux21_gen_behavioral 0 22 5ggUW@TcSi1gWdjhlTNSb1
+DAx4 work 15 tbmux21_generic 4 test 22 :fjSFcVbKChaezM7=VZ2?1
+R15
+R2
+R3
+DEx4 work 15 tbmux21_generic 0 22 Rd6?4jRFQ<^lmd=zTN=l32
+!i122 23
+Z49 w1711009609
+R0
+Z50 8/home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd
+Z51 F/home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd
 l0
 L46 1
-VJOlHYkh4DoHQ4G88PRZm^1
+VXT>e8<<FgIjCz4VP@A>Ah3
 !s100 :blnX[j=^nPDB>5F9GMNY1
-R13
+R8
 32
-Z68 !s110 1710926672
+R29
 !i10b 0
-Z69 !s108 1710926671.000000
-Z70 !s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd|
-Z71 !s107 /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd|
+R30
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|/home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd|
+Z52 !s107 /home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd|
 !i113 0
-R18
-R19
+R23
+R14
 End2
-R21
 R5
-R6
-R7
-!i122 87
-R10
-R50
-R51
+R15
+R2
+R3
+!i122 20
+R0
+R42
+R43
 l0
 L5 1
-VCSc3g2QaXg6;gD7gITXM>3
+VSTV0ec?cgVX=a<YI7=2WF1
 !s100 TQh=7hQBTkmX^]dgN6Beh3
-R13
+R8
 32
-R52
+R29
 !i10b 1
-R53
-R54
-R55
+R20
+R44
+R45
 !i113 0
-R18
-R19
+R23
+R14
 Aarch2
-R5
-R6
-R7
-R49
-!i122 87
+R15
+R2
+R3
+R41
+!i122 20
 l21
 L19 16
-V>V4fT0BQS>Nhm7]f[dI921
+V8zW?ZG4LbkG2z6doHY7`^1
 !s100 TfHJCgdLJ<WaXLm6H@GTa1
-R13
+R8
 32
-R52
+R29
 !i10b 1
-R53
-R54
-R55
+R20
+R44
+R45
 !i113 0
-R18
-R19
+R23
+R14
 Aarch1
-R5
-R6
-R7
-R49
-!i122 87
+R15
+R2
+R3
+R41
+!i122 20
 l14
 L12 6
-V86Q1d6fNFlSnO<P1S<:_61
+V=hcbLWT2K3HQ>A<loAk3e3
 !s100 h`5=2;:RP@9nJLI^JhjlI2
-R13
+R8
 32
-R52
+R29
 !i10b 1
-R53
-R54
-R55
+R20
+R44
+R45
 !i113 0
-R18
-R19
-Etbfd
-R58
-R5
-R6
-R7
-!i122 125
-R10
-R59
-R60
-l0
-L6 1
-VNGIoazOHklXkFY?1dI^AL2
-!s100 <h529DUa_cHK6ze230<1I0
-R13
-32
-R61
-!i10b 1
-R62
-R63
-R64
-!i113 0
-R18
-R19
-Atest
-R5
-R6
-R7
-R57
-!i122 125
-l25
-L9 38
-VIjc3?YZ?Fj?kP1gaO^;Zo1
-!s100 [^;DUJOAY<3]Fz?cCjNH92
-R13
-32
-R61
-!i10b 1
-R62
-R63
-R64
-!i113 0
-R18
-R19
+R23
+R14
 Etbmux21_generic
-R21
-R5
-R6
-R7
-!i122 96
-R10
-R66
-R67
+R49
+Z53 DPx4 work 9 constants 0 22 GAObH7c<=?JlDPAibT<H_1
+R2
+R3
+!i122 27
+R0
+R50
+R51
 l0
 L6 1
 V9[b4B>_c?PnH6_Die?=zf2
 !s100 Cemk`9C=@;kab5Mk6_63`0
-R13
+R8
 32
-!s110 1710926671
+Z54 !s110 1711011952
 !i10b 1
-R69
-R70
-R71
+Z55 !s108 1711011952.000000
+Z56 !s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/vhdlsim/tb_mux21_generic.vhd|
+R52
 !i113 0
-R18
-R19
+R13
+R14
 Atest
-R5
-R6
-R7
-R65
-!i122 96
+R53
+R2
+R3
+DEx4 work 15 tbmux21_generic 0 22 9[b4B>_c?PnH6_Die?=zf2
+!i122 27
 l27
 L9 36
-VZE1@IV_U?]SO_aY1a9D2J1
-!s100 W2=d:k66@7R3F[Y3aT`fa2
-R13
+VzB8^dfDihMzb9c_OU?:8h1
+!s100 Q>D@;Ph@gz_bB0a2AkZYi1
+R8
 32
-R68
+R54
 !i10b 1
-R69
-R70
-R71
+R55
+R56
+R52
 !i113 0
-R18
-R19
+R13
+R14

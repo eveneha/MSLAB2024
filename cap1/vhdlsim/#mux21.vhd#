@@ -18,12 +18,12 @@ begin
 end BEHAVIORAL_1;
 
 
-architecture BEHAVIORAL of MUX21 is
+architecture BEHAVIORAL_2 of MUX21 is
 
 begin
 	Y <= A when S='1' else B;
 
-end BEHAVIORAL;
+end BEHAVIORAL_2;
 
 
 architecture BEHAVIORAL_3 of MUX21 is
@@ -88,7 +88,7 @@ end CFG_MUX21_BEHAVIORAL_1;
 configuration CFG_MUX21_BEHAVIORAL of MUX21 is
 	for BEHAVIORAL
 	end for;
-end CFG_MUX21_BEHAVIORAL;
+end CFG_MUX21_BEHAVIORAL_2;
 
 configuration CFG_MUX21_BEHAVIORAL_3 of MUX21 is
 	for BEHAVIORAL_3

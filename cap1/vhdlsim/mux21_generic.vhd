@@ -60,7 +60,7 @@ end BEHAVIORAL_3;
 architecture STRUCTURAL of MUX21_GENERIC is
 
 	
-        component mux21 is
+        component mux21
           port ( A: in std_logic;
                  B: in std_logic;
                  S: in std_logic;
@@ -95,7 +95,7 @@ end CFG_MUX21_BEHAVIORAL_3;
 
 configuration CFG_MUX21_GEN_STRUCTURAL of MUX21_GENERIC is
 	for STRUCTURAL
-		for all : MUX21
+		for all : mux21
 			use configuration WORK.CFG_MUX21_STRUCTURAL;
 		end for;
 	        
