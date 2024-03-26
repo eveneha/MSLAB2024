@@ -1,0 +1,120 @@
+-------------------------------------------------------------------------------
+
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+use work.constants.all;
+-------------------------------------------------------------------------------
+
+entity accumulator is
+ generic (NBIT   : integer      := numBit); 
+ port (
+      A          : in           std_logic_vector(numBit - 1 downto 0);
+      B          : in           std_logic_vector(numBit - 1 downto 0);
+      CLK        : in           std_logic;
+      RST_n      : in           std_logic;
+      ACCUMULATE : in           std_logic;
+      Y          : out          std_logic_vector(numBit - 1 downto 0));
+end accumulator;
+
+-------------------------------------------------------------------------------
+
+architecture structural of accumulator is
+
+
+  component mux21_generic
+    generic( NBIT       : integer       := numBit;
+             DELAY_MUX  : time          := 0 ns);  
+    port(    A          : in            std_logic_vector(NBIT-1 downto 0);
+             B          : in            std_logic_vector(NBIT-1 downto 0);
+             S          : in            std_logic;
+             Y          : out           std_logic_vector(NBIT-1 downto 0)); 
+  end component;
+
+  component rca_generic
+    generic( DRCAS      : time          := 0 ns;
+             DRCAC      : time          := 0 ns;
+             NBIT       : integer       := numBit);
+    port(    A          : in            std_logic_vector(NBIT-1 downto 0);
+             B          : in            std_logic_vector(NBIT-1 downto 0);
+             S          : out           std_logic_vector(NBIT-1 downto 0));
+  end component; 
+  
+  component fdsync
+    generic( NBIT       : integer       := numBit);
+    port(    D          : in            std_logic_vector(NBIT-1 downto 0);
+             CK         : in            std_logic;
+             RESET      : in            std_logic;
+             Q          : out           std_logic_vector(NBIT-1 downto 0)); 
+  end component;
+
+  
+
+begin
+  
+  mux_inst: mux21_generic
+    generic map (
+      NBIT      => NBIT,
+      DELAY_MUX => 0 ns
+    );
+    port map (
+      A => A,
+      B => B,
+      S => ACCUMULATE,
+      Y => Y
+    );
+
+  adder_inst: rca_generic
+    generic map (
+      NBIT => NBIT
+    );
+    port map (
+      A => A,
+      B => B,
+      S => Y
+    );
+
+  reg_inst: fd
+    generic map (
+      NBIT => NBIT
+    );
+    port map (
+      D     => Y,
+      CK    => CLK,
+      RESET => RST_n,
+      Q     => Y
+    );
+
+
+end structural;
+
+-------------------------------------------------------------------------------
+
+
+configuration CFG_ACC_STRUCTURAL of accumulator is
+  for structural 
+      for mux_inst : mux21_generic
+        use configuration --XX;
+      end for;
+      for adder_inst: rca_generic
+        use configuration WORK.CFG_RCA_STRUCTURAL;
+      end for;
+      for reg_inst: fd
+        use configuration --XX
+      end for;
+  end for;
+end CFG_ACC_STRUCTURAL;
+
+configuration CFG_ACC_BEHAVIORAL of accumulator is
+    for behavioral
+      for mux_inst: mux21_generic
+        use configuration --XX
+      end for;
+      for adder_inst: rca_generic
+        use configuration WORK.CFG_RCA_BEHAVIORAL;
+      end for;
+      for reg_inst: fd
+        use configuration --XX
+      end for;
+  end for;
+end CFG_ACC_BEHAVIORAL;

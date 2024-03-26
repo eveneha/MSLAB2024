@@ -1,0 +1,885 @@
+m255
+K4
+z2
+!s11e vcom 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1
+Eaccumulator
+w1711460120
+Z1 DPx4 work 9 constants 0 22 EH?h>:SM<A@9oL45=7@7Q1
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 24
+R0
+8/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/accumulator.vhd
+F/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/accumulator.vhd
+l0
+L9 1
+V8bPi[Tm2@PCI6zjU67CRZ0
+!s100 Y;PQ4^:g8Yj4]0V9S5>Z32
+Z6 OL;C;2020.4;71
+32
+!s110 1711460128
+!i10b 1
+!s108 1711460128.000000
+!s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/accumulator.vhd|
+!s107 /home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/accumulator.vhd|
+!i113 0
+Z7 o-work work
+Z8 tExplicit 1 CvgOpt 0
+Ccfg_fa_behavioral
+eFA
+Z9 aBEHAVIORAL
+DAx4 work 2 fa 10 behavioral 22 l9VY[HBGCaEz?neT;FB;H3
+R4
+R5
+Z10 DEx4 work 2 fa 0 22 olkG2i7eJWm@MH>a<IfBQ2
+!i122 15
+Z11 w1711216081
+R0
+Z12 8/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/fa.vhd
+Z13 F/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/fa.vhd
+l0
+L24 1
+VaO4WOjE`aHQ<=hm3j=>i:0
+!s100 ;fLgj2F5I1BR>Vc^?i^<S3
+R6
+32
+Z14 !s110 1711459285
+!i10b 0
+Z15 !s108 1711459285.000000
+Z16 !s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/fa.vhd|
+Z17 !s107 /home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/fa.vhd|
+!i113 0
+R7
+R8
+Ccfg_fd_pippo
+eFD
+aPIPPO
+DAx4 work 2 fd 5 pippo 22 1FGclNfKJfz4VTNZd7hV@3
+R1
+R4
+R5
+Z18 DEx4 work 2 fd 0 22 [RR^dGlgkh:WQWF`WSAS40
+!i122 16
+Z19 w1710929525
+R0
+Z20 8/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/fd.vhd
+Z21 F/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/fd.vhd
+l0
+L47 1
+V]gbfL8ll^PMkUKjk4CS:H2
+!s100 d<_@6_oBQi^:e>jhaED5X2
+R6
+32
+Z22 !s110 1711459286
+!i10b 0
+Z23 !s108 1711459286.000000
+Z24 !s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/fd.vhd|
+Z25 !s107 /home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/fd.vhd|
+!i113 0
+R7
+R8
+Ccfg_fd_pluto
+eFD
+aPLUTO
+DAx4 work 2 fd 5 pluto 22 oC;^d06<8M?88<HICfT2>2
+R1
+R4
+R5
+R18
+!i122 16
+R19
+R0
+R20
+R21
+l0
+Z26 L53 1
+VDd3NDB8ORzc4f@Sc=d:V=1
+!s100 8J4AJZ:<;`F<Tn3JPUZgX1
+R6
+32
+R22
+!i10b 0
+R23
+R24
+R25
+!i113 0
+R7
+R8
+Ccfg_iv_behavioral
+eIV
+R9
+DAx4 work 2 iv 10 behavioral 22 U==`a]e1Y@z;DJ9X]2EJa3
+R1
+R4
+R5
+Z27 DEx4 work 2 iv 0 22 FR2B_<Uk[71CTf>fRk_AC1
+!i122 17
+Z28 w1710873232
+R0
+Z29 8/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/iv.vhd
+Z30 F/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/iv.vhd
+l0
+L19 1
+VkM[Yl:RSZNHEb0<5KSaB:3
+!s100 J^D:lcUfc_6VD4AD?iJiU2
+R6
+32
+Z31 !s110 1711459287
+!i10b 0
+Z32 !s108 1711459287.000000
+Z33 !s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/iv.vhd|
+Z34 !s107 /home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/iv.vhd|
+!i113 0
+R7
+R8
+Ccfg_mux21_behavioral
+Z35 eMUX21
+R9
+DAx4 work 5 mux21 10 behavioral 22 P[z`0[<B8DSRh2903LTOb3
+R1
+R4
+R5
+Z36 DEx4 work 5 mux21 0 22 UoP4Lg73WaZ_[mU_X_cJ;2
+!i122 19
+Z37 w1711011052
+R0
+Z38 8/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/mux21.vhd
+Z39 F/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/mux21.vhd
+l0
+L88 1
+Vfk]B?ZgEEQOZ`:[@^KK0=0
+!s100 @KMW;K7ZT:>ljB:<DzmG50
+R6
+32
+Z40 !s110 1711459290
+!i10b 0
+Z41 !s108 1711459290.000000
+Z42 !s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/mux21.vhd|
+Z43 !s107 /home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/mux21.vhd|
+!i113 0
+R7
+R8
+Ccfg_mux21_behavioral_1
+R35
+aBEHAVIORAL_1
+DAx4 work 5 mux21 12 behavioral_1 22 ;d9W95bYVCX>MMVSXfVzV3
+R1
+R4
+R5
+R36
+!i122 19
+R37
+R0
+R38
+R39
+l0
+L83 1
+VlfVUR^?8^F<U][E_[aU>L3
+!s100 N<SV[43h4J[4SVS[2=kYF2
+R6
+32
+R40
+!i10b 0
+R41
+R42
+R43
+!i113 0
+R7
+R8
+Ccfg_mux21_behavioral_3
+R35
+aBEHAVIORAL_3
+DAx4 work 5 mux21 12 behavioral_3 22 E;iQdb2NzN^:I^gl^?1OU0
+R1
+R4
+R5
+R36
+!i122 19
+R37
+R0
+R38
+R39
+l0
+L93 1
+VSI=AT<UNzo=lOEo2GOM830
+!s100 X=8]aSPcdB`V_ZX1PGn>l2
+R6
+32
+R40
+!i10b 0
+R41
+R42
+R43
+!i113 0
+R7
+R8
+Ccfg_mux21_generic_behavioral
+Z44 eMUX21_GENERIC
+R9
+DAx4 work 13 mux21_generic 10 behavioral 22 Z6H3U`Fcienh@h@g4:59z3
+R1
+R4
+R5
+Z45 DEx4 work 13 mux21_generic 0 22 VmL7USJJe;6O>zDH:DzfV3
+!i122 20
+Z46 w1711453023
+R0
+Z47 8/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/mux21_generic.vhd
+Z48 F/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/mux21_generic.vhd
+l0
+L55 1
+V5@5YF9aAKe0mPJ3Y43h[I1
+!s100 ]eP6>@kT8e5FnPiHI=B`O1
+R6
+32
+Z49 !s110 1711459291
+!i10b 0
+Z50 !s108 1711459291.000000
+Z51 !s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/mux21_generic.vhd|
+Z52 !s107 /home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/mux21_generic.vhd|
+!i113 0
+R7
+R8
+Ccfg_mux21_generic_structural
+R44
+Z53 aSTRUCTURAL
+R36
+DCx4 work 20 cfg_mux21_structural 0 22 J>9PV_9BkO_bWSH7HP5k<2
+DAx4 work 13 mux21_generic 10 structural 22 g01W3H<9NO=PiS]hYLhmb0
+R1
+R4
+R5
+R45
+!i122 20
+R46
+R0
+R47
+R48
+l0
+L45 1
+V1d]LkXN9A01KC]X>Da=VG0
+!s100 ?Yzkf8Q2GonNFDdaYj>:Z3
+R6
+32
+R49
+!i10b 0
+R50
+R51
+R52
+!i113 0
+R7
+R8
+Ccfg_mux21_structural
+R35
+R53
+Z54 DEx4 work 3 nd2 0 22 eehlAoX<m>:coij@zKm3F2
+R27
+DCx4 work 13 cfg_nd2_arch2 0 22 bS41WgbPZooDG5c<N=D^Z1
+DCx4 work 17 cfg_iv_behavioral 0 22 kM[Yl:RSZNHEb0<5KSaB:3
+DAx4 work 5 mux21 10 structural 22 5Y5zW=RH==Wc8GTf5?Jk42
+R1
+R4
+R5
+R36
+!i122 19
+R37
+R0
+R38
+R39
+l0
+L98 1
+VJ>9PV_9BkO_bWSH7HP5k<2
+!s100 Ka:iYN0MgV9mVY2=5T_gj0
+R6
+32
+R40
+!i10b 0
+R41
+R42
+R43
+!i113 0
+R7
+R8
+Ccfg_nd2_arch1
+eND2
+aARCH1
+DAx4 work 3 nd2 5 arch1 22 Kl>?fEB65iYJi^E@K5jbW1
+R1
+R4
+R5
+R54
+!i122 18
+R28
+R0
+Z55 8/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/nd2.vhd
+Z56 F/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/nd2.vhd
+l0
+L37 1
+VUf_?P37Sl?PLLB>nQMaRG1
+!s100 E@8<=L1e;1WRQ?F]TON?43
+R6
+32
+Z57 !s110 1711459288
+!i10b 0
+Z58 !s108 1711459288.000000
+Z59 !s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/nd2.vhd|
+Z60 !s107 /home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/nd2.vhd|
+!i113 0
+R7
+R8
+Ccfg_nd2_arch2
+eND2
+aARCH2
+DAx4 work 3 nd2 5 arch2 22 505@dKNe4Z<AUnGePGCm52
+R1
+R4
+R5
+R54
+!i122 18
+R28
+R0
+R55
+R56
+l0
+L42 1
+VbS41WgbPZooDG5c<N=D^Z1
+!s100 dQYng`K0YXdSKRjaAazG[0
+R6
+32
+R57
+!i10b 0
+R58
+R59
+R60
+!i113 0
+R7
+R8
+Ccfg_rca_behavioral
+Z61 eRCA_GENERIC
+R9
+DAx4 work 11 rca_generic 10 behavioral 22 ;FNCk33H[?OgP`XM>Kign2
+R2
+R3
+R4
+R5
+Z62 DEx4 work 11 rca_generic 0 22 L;2S`9aN==Vi:Di?^BMF31
+!i122 21
+Z63 w1711282401
+R0
+Z64 8/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/rca_generic.vhd
+Z65 F/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/rca_generic.vhd
+l0
+L63 1
+V4D;JAGDTaRzMFf?`kGlNm2
+!s100 :<82R8T6`bYdzK1;JFUK51
+R6
+32
+Z66 !s110 1711459292
+!i10b 0
+Z67 !s108 1711459292.000000
+Z68 !s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/rca_generic.vhd|
+Z69 !s107 /home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/rca_generic.vhd|
+!i113 0
+R7
+R8
+Ccfg_rca_structural
+R61
+R53
+R10
+DCx4 work 17 cfg_fa_behavioral 0 22 aO4WOjE`aHQ<=hm3j=>i:0
+DAx4 work 11 rca_generic 10 structural 22 0@YedQC<_@Y<Z_Z_CWS?Y1
+R2
+R3
+R4
+R5
+R62
+!i122 21
+R63
+R0
+R64
+R65
+l0
+R26
+Vd[G_ozn<XMBKITOAAWfB[3
+!s100 [a?e@YlZ5i6a<JYIK30Z^0
+R6
+32
+R66
+!i10b 0
+R67
+R68
+R69
+!i113 0
+R7
+R8
+Pconstants
+!i122 14
+w1711452369
+R0
+8/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/constants.vhd
+F/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/constants.vhd
+l0
+L1 1
+VEH?h>:SM<A@9oL45=7@7Q1
+!s100 d=k5KF7<0RGkRL[cEO`:G0
+R6
+32
+R14
+!i10b 1
+!s108 1711459284.000000
+!s90 -reportprogress|300|-work|work|/home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/constants.vhd|
+!s107 /home/ms24.41/MSLAB2024/cap1/gr41_lab01/ex6.1/constants.vhd|
+!i113 0
+R7
+R8
+Efa
+R11
+R4
+R5
+!i122 15
+R0
+R12
+R13
+l0
+L4 1
+VolkG2i7eJWm@MH>a<IfBQ2
+!s100 R@78Q9B;RU?BKW[d:f7WA2
+R6
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R7
+R8
+Abehavioral
+R4
+R5
+R10
+!i122 15
+l16
+L14 9
+Vl9VY[HBGCaEz?neT;FB;H3
+!s100 DMi>BZZVj6i=_GX:XX[z53
+R6
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 0
+R7
+R8
+Efd
+R19
+R1
+R4
+R5
+!i122 16
+R0
+R20
+R21
+l0
+L5 1
+V[RR^dGlgkh:WQWF`WSAS40
+!s100 4<]JCk?`JX]mMXdRU<EIk1
+R6
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R7
+R8
+Apluto
+R1
+R4
+R5
+R18
+!i122 16
+l33
+L31 14
+VoC;^d06<8M?88<HICfT2>2
+!s100 2WHN^;SPNS_]EL[F9@kf^0
+R6
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R7
+R8
+Apippo
+R1
+R4
+R5
+R18
+!i122 16
+l16
+L14 16
+V1FGclNfKJfz4VTNZd7hV@3
+!s100 KFd91^`>U5]nbPS]cRfHb0
+R6
+32
+R22
+!i10b 1
+R23
+R24
+R25
+!i113 0
+R7
+R8
+Eiv
+R28
+R1
+R4
+R5
+!i122 17
+R0
+R29
+R30
+l0
+L5 1
+VFR2B_<Uk[71CTf>fRk_AC1
+!s100 :4ZhGh>WK`=ahW`RW=?IW2
+R6
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 0
+R7
+R8
+Abehavioral
+R1
+R4
+R5
+R27
+!i122 17
+l13
+L11 7
+VU==`a]e1Y@z;DJ9X]2EJa3
+!s100 ZO7X<i_:10Coc1RH[ZOf;0
+R6
+32
+R31
+!i10b 1
+R32
+R33
+R34
+!i113 0
+R7
+R8
+Emux21
+R37
+R1
+R4
+R5
+!i122 19
+R0
+R38
+R39
+l0
+L5 1
+VUoP4Lg73WaZ_[mU_X_cJ;2
+!s100 8[7C]XjR_lILJSXIUl9e11
+R6
+32
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 0
+R7
+R8
+Astructural
+R1
+R4
+R5
+R36
+!i122 19
+l65
+L46 35
+V5Y5zW=RH==Wc8GTf5?Jk42
+!s100 2W<io5nl3hB;lNj_i8I9e0
+R6
+32
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 0
+R7
+R8
+Abehavioral_3
+R1
+R4
+R5
+R36
+!i122 19
+l31
+L29 14
+VE;iQdb2NzN^:I^gl^?1OU0
+!s100 H`fomV559ELnDKzgmX`0:1
+R6
+32
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 0
+R7
+R8
+Abehavioral
+R1
+R4
+R5
+R36
+!i122 19
+l23
+L21 6
+VP[z`0[<B8DSRh2903LTOb3
+!s100 KGaT3J:K8ESLPHfg8JA970
+R6
+32
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 0
+R7
+R8
+Abehavioral_1
+R1
+R4
+R5
+R36
+!i122 19
+l15
+L13 6
+V;d9W95bYVCX>MMVSXfVzV3
+!s100 ghVEL:7]j]:CiG[ai`UZn3
+R6
+32
+R40
+!i10b 1
+R41
+R42
+R43
+!i113 0
+R7
+R8
+Emux21_generic
+R46
+R1
+R4
+R5
+!i122 20
+R0
+R47
+R48
+l0
+L5 1
+VVmL7USJJe;6O>zDH:DzfV3
+!s100 z2=4II@aQeFle086^5BNY1
+R6
+32
+R49
+!i10b 1
+R50
+R51
+R52
+!i113 0
+R7
+R8
+Astructural
+R1
+R4
+R5
+R45
+!i122 20
+l33
+L23 19
+Vg01W3H<9NO=PiS]hYLhmb0
+!s100 M<8KKF5iTj@Czhkkc8SbL2
+R6
+32
+R49
+!i10b 1
+R50
+R51
+R52
+!i113 0
+R7
+R8
+Abehavioral
+R1
+R4
+R5
+R45
+!i122 20
+l17
+L15 7
+VZ6H3U`Fcienh@h@g4:59z3
+!s100 2P=]d]Kzdo_GlF^FXk3bF1
+R6
+32
+R49
+!i10b 1
+R50
+R51
+R52
+!i113 0
+R7
+R8
+End2
+R28
+R1
+R4
+R5
+!i122 18
+R0
+R55
+R56
+l0
+L5 1
+VeehlAoX<m>:coij@zKm3F2
+!s100 TQh=7hQBTkmX^]dgN6Beh3
+R6
+32
+R57
+!i10b 1
+R58
+R59
+R60
+!i113 0
+R7
+R8
+Aarch2
+R1
+R4
+R5
+R54
+!i122 18
+l21
+L19 16
+V505@dKNe4Z<AUnGePGCm52
+!s100 TfHJCgdLJ<WaXLm6H@GTa1
+R6
+32
+R57
+!i10b 1
+R58
+R59
+R60
+!i113 0
+R7
+R8
+Aarch1
+R1
+R4
+R5
+R54
+!i122 18
+l14
+L12 6
+VKl>?fEB65iYJi^E@K5jbW1
+!s100 h`5=2;:RP@9nJLI^JhjlI2
+R6
+32
+R57
+!i10b 1
+R58
+R59
+R60
+!i113 0
+R7
+R8
+Erca_generic
+R63
+R2
+R3
+R4
+R5
+!i122 21
+R0
+R64
+R65
+l0
+L5 1
+VL;2S`9aN==Vi:Di?^BMF31
+!s100 jMzLOdcMlCaR;[[ik63iV1
+R6
+32
+R66
+!i10b 1
+R67
+R68
+R69
+!i113 0
+R7
+R8
+Abehavioral
+R2
+R3
+R4
+R5
+R62
+!i122 21
+l47
+L45 7
+V;FNCk33H[?OgP`XM>Kign2
+!s100 `fJ?onL8V7FMkL7fSVkQ;0
+R6
+32
+R66
+!i10b 1
+R67
+R68
+R69
+!i113 0
+R7
+R8
+Astructural
+R2
+R3
+R4
+R5
+R62
+!i122 21
+l30
+L16 27
+V0@YedQC<_@Y<Z_Z_CWS?Y1
+!s100 P@6LgWVdOG78LjhW@ikIo1
+R6
+32
+R66
+!i10b 1
+R67
+R68
+R69
+!i113 0
+R7
+R8
